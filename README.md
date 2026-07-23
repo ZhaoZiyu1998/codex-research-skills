@@ -56,5 +56,10 @@ for skill in */SKILL.md; do
 done
 ```
 
-The `humanizer` skill contains a separate notice for material adapted from the
-MIT-licensed `blader/humanizer` project.
+## Attribution
+
+The `humanizer` skill adapts part of the AI-writing pattern taxonomy from
+[`blader/humanizer`](https://github.com/blader/humanizer) by Siqi Chen, which
+is distributed under the MIT License. The upstream license is preserved in
+`humanizer/LICENSE.blader-humanizer`. See [NOTICE.md](NOTICE.md) for the full
+statement.
