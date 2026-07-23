@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experiment Data Analysis"
+  short_description: "Analyze results and write evidence-led experiment prose"
+  default_prompt: "Use $experiment-data-analysis to audit these experimental results, derive supported claims, and draft precise paper prose."

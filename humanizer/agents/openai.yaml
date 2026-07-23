@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer"
+  short_description: "Remove AI-style prose patterns"
+  default_prompt: "Use $humanizer to revise this prose so it preserves meaning and voice while removing AI-style filler, hype, and formatting tics."
