@@ -15,8 +15,10 @@ experimental analysis, figure design, and pre-submission review.
 - `tech-paper-template`
 - `vibe-research-workflow`
 
-These are user-created skills. OpenAI system skills and plugin-provided skills
-are not included.
+OpenAI system skills and plugin-provided skills are not included. This
+collection combines one locally authored skill with skills adapted or copied
+from two third-party projects. See [Sources and licenses](#sources-and-licenses)
+before redistributing or modifying it.
 
 ## Install
 
@@ -56,10 +58,24 @@ for skill in */SKILL.md; do
 done
 ```
 
-## Attribution
+## Sources and licenses
 
-The `humanizer` skill adapts part of the AI-writing pattern taxonomy from
-[`blader/humanizer`](https://github.com/blader/humanizer) by Siqi Chen, which
-is distributed under the MIT License. The upstream license is preserved in
-`humanizer/LICENSE.blader-humanizer`. See [NOTICE.md](NOTICE.md) for the full
-statement.
+The repository uses multiple licenses.
+
+- `experiment-data-analysis` is locally authored and distributed under the
+  [MIT License](LICENSE.MIT).
+- `benchmark-paper-template`, `figure-designer`, `idea-evaluator`,
+  `intro-drafter`, `pre-submission-reviewer`, `tech-paper-template`, and
+  `vibe-research-workflow` originate from
+  [`HKUSTDial/Supervisor-Skills`](https://github.com/HKUSTDial/Supervisor-Skills).
+  They remain under
+  [CC BY-NC-SA 4.0](LICENSE.supervisor-skills), including the non-commercial
+  and share-alike conditions. Some copies have been modified.
+- `humanizer` adapts part of the AI-writing pattern taxonomy from
+  [`blader/humanizer`](https://github.com/blader/humanizer) by Siqi Chen,
+  which is distributed under the MIT License. The upstream license is
+  preserved in `humanizer/LICENSE.blader-humanizer`.
+
+See [NOTICE.md](NOTICE.md) for the detailed attribution and modification
+statement. No attribution in this repository implies endorsement by an
+upstream author.
