@@ -1,6 +1,6 @@
 ---
 name: experiment-data-analysis
-description: Analyze experimental data for technical papers, audit result completeness and comparison fairness, derive claims supported by tables or per-run records, identify exceptions and sensitivity, and turn the analysis into precise experiment prose. Use when interpreting experiment logs, JSON or CSV results, tables, figures, ablations, sensitivity studies, baseline comparisons, or when checking whether a paper's experimental claims follow from its data.
+description: Analyze experimental data for technical papers, audit result completeness and comparison fairness, derive claims supported by tables or per-run records, identify exceptions and sensitivity, and turn the analysis into precise experiment prose and concise figure or table captions. Use when interpreting experiment logs, JSON or CSV results, tables, figures, ablations, sensitivity studies, baseline comparisons, revising experiment sections or captions, or checking whether a paper's experimental claims follow from its data.
 ---
 
 # Experiment Data Analysis
@@ -132,3 +132,30 @@ venue convention differs. Prefer direct verbs and exact metric names. Avoid
 hype, forced “Finding X” labels, method-by-method laundry lists, and synonyms
 for established technical terms. Preserve necessary qualifications and
 negative results.
+
+### Experiment prose and captions
+
+Write each experiment around one question in this order:
+
+1. explain why the experiment is needed;
+2. state what is compared and what is held fixed;
+3. report the headline result;
+4. state the supported conclusion.
+
+Keep exhaustive values in the table or figure. In surrounding prose, retain
+only the one or two numbers needed to establish magnitude, a boundary, or the
+paper's headline result. Do not narrate rows or repeat the same counts in the
+caption, body text, and table.
+
+Make captions concise and self-identifying. State what is shown and, when
+needed, the central comparison or takeaway. Move protocol details, metric
+definitions, qualifications, and multi-step interpretation into the nearby
+body text. A caption may define a symbol or denominator needed to read the
+visual, but it should not become a second results paragraph.
+
+When revising a paper, inspect the main experiment section and its appendix
+together. Keep names, populations, contracts, denominators, and headline
+claims consistent across prose, captions, tables, and figures. Let the main
+text carry the research question and principal result; let the appendix carry
+the reproducible protocol and additional evidence without repeating the main
+paragraph verbatim.
