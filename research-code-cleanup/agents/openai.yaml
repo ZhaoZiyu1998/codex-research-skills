@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Code Cleanup"
+  short_description: "Simplify paper repositories around reproducible experiments"
+  default_prompt: "Use $research-code-cleanup to simplify this paper repository while preserving its claims, reproducibility, and certificate soundness."
