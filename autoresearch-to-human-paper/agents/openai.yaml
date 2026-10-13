@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autoresearch to Human Paper"
+  short_description: "Rewrite an agent-generated paper so it reads as human-written"
+  default_prompt: "Use $autoresearch-to-human-paper to revise this paper section by section against accepted papers in the same area, without changing any result."

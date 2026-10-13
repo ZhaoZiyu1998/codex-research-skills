@@ -5,6 +5,7 @@ experimental analysis, figure design, and pre-submission review.
 
 ## Included skills
 
+- `autoresearch-to-human-paper`
 - `benchmark-paper-template`
 - `experiment-data-analysis`
 - `figure-designer`
@@ -16,7 +17,7 @@ experimental analysis, figure design, and pre-submission review.
 - `vibe-research-workflow`
 
 OpenAI system skills and plugin-provided skills are not included. This
-collection combines one locally authored skill with skills adapted or copied
+collection combines two locally authored skills with skills adapted or copied
 from two third-party projects. See [Sources and licenses](#sources-and-licenses)
 before redistributing or modifying it.
 
@@ -35,6 +36,9 @@ done
 ```
 
 Restart Codex after installation.
+
+The same directories also work as Claude Code skills: copy them into
+`~/.claude/skills/` instead and start a new session.
 
 Codex can also install the repository when asked:
 
@@ -62,8 +66,11 @@ done
 
 The repository uses multiple licenses.
 
-- `experiment-data-analysis` is locally authored and distributed under the
-  [MIT License](LICENSE.MIT).
+- `autoresearch-to-human-paper` and `experiment-data-analysis` are locally
+  authored and distributed under the [MIT License](LICENSE.MIT).
+  `autoresearch-to-human-paper` refers to `experiment-data-analysis`,
+  `humanizer` and `pre-submission-reviewer` by name and works best with
+  them installed.
 - `benchmark-paper-template`, `figure-designer`, `idea-evaluator`,
   `intro-drafter`, `pre-submission-reviewer`, `tech-paper-template`, and
   `vibe-research-workflow` originate from
